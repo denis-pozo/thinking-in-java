@@ -1,4 +1,4 @@
-package es.denis.thinking.capOne;
+package es.denis.thinking.chapOne;
 
 public class Incrementable {
 	static int i = 47;

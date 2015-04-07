@@ -1,4 +1,4 @@
-package es.denis.thinking.capTwo;
+package es.denis.thinking.chapTwo;
 
 import static es.denis.thinking.utils.Print.*;
 

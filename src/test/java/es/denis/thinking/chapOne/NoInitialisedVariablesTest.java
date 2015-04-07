@@ -1,4 +1,6 @@
-package es.denis.thinking.capOne;
+package es.denis.thinking.chapOne;
+
+import es.denis.thinking.chapOne.NoInitialisedVariables;
 
 public class NoInitialisedVariablesTest {
 
