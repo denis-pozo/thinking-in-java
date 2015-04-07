@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-//Chapter - Operators: Exercice 2
+//Chapter - Operators: Exercise 2
 
 public class AliasingTest {
 	

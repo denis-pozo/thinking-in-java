@@ -1,6 +1,6 @@
 package es.denis.thinking.chapTwo;
 
-//Chapter - Operators: Exercice 2
+// Chapter - Operators: Exercise 2
 
 public class Aliasing {
 	
