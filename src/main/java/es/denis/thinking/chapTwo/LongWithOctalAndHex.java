@@ -2,7 +2,7 @@ package es.denis.thinking.chapTwo;
 
 import static es.denis.thinking.utils.Print.*;
 
-//Chapter - Operators: Exercise 3
+//Chapter - Operators: Exercise 8
 
 public class LongWithOctalAndHex {
 
