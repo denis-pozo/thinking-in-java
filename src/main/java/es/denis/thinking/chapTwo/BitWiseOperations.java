@@ -4,7 +4,7 @@ import static es.denis.thinking.utils.Print.*;
 
 //Chapter - Operators: Exercise 10
 
-public class BitWiseOpperations {
+public class BitWiseOperations {
 
 	public static void main(String[] args) {
 		int A = 0x128F;
