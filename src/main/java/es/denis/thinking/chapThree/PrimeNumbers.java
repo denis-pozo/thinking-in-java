@@ -2,7 +2,7 @@ package es.denis.thinking.chapThree;
 
 import static es.denis.thinking.utils.Print.*;
 
-//Chapter - Controlling Execution: Exercise 03
+//Chapter - Controlling Execution: Exercise 04
 
 public class PrimeNumbers {
 	
