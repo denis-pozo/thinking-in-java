@@ -1,4 +1,4 @@
-package es.denis.thinking.chapFour;
+package es.denis.thinking.chapFour.iExerciseNine;
 
 import static es.denis.thinking.utils.Print.*;
 

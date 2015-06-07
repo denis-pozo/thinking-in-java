@@ -1,13 +1,13 @@
-package es.denis.thinking.chapFour;
+package es.denis.thinking.chapFour.lExerciseTwelve;
 
 import static es.denis.thinking.utils.Print.*;
 
 //Chapter - Initialization & Cleanup
-public class LTankTuelve {
+public class Tank {
 	
 	private boolean empty = true;
 	
-	public LTankTuelve(){
+	public Tank(){
 		print("New Tank created");
 	}
 	
@@ -27,7 +27,7 @@ public class LTankTuelve {
 	}
 	
 	public static void main(String [] args){
-		LTankTuelve tank = new LTankTuelve();
+		Tank tank = new Tank();
 		tank.filled();
 		tank.finalize();
 		tank.emptied();
