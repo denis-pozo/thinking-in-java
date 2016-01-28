@@ -2,9 +2,6 @@ package es.denis.thinking.chapThree;
 
 import static es.denis.thinking.utils.Print.*;
 
-import java.util.ArrayList;
-import java.util.List;
-
 //Chapter - Controlling Execution: Exercise 010
 
 public class VampireNumberFourDigits {

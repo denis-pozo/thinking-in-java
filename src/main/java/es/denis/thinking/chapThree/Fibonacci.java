@@ -39,6 +39,7 @@ public class Fibonacci {
 	
 	public static void main(String ... args){
 		Fibonacci cinco = new Fibonacci(5);
+		System.out.println(cinco);
 		
 	}
 
