@@ -40,6 +40,7 @@
     <module>thj-chapter-two</module>
     <module>thj-utils</module>
     <module>thj-chapter-three</module>
+    <module>thj-chapter-four</module>
   </modules>
 
 </project>
