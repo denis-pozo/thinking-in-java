@@ -1,6 +1,6 @@
-package es.denis.thinking.chapOne;
+package org.denispozo.tutorial.thj.one;
 
-import es.denis.thinking.chapOne.NoInitialisedVariables;
+import org.denispozo.tutorial.thj.one.NoInitialisedVariables;
 
 public class NoInitialisedVariablesTest {
 

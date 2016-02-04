@@ -1,4 +1,4 @@
-package es.denis.thinking.chapOne;
+package org.denispozo.tutorial.thj.one;
 
 public class StorageMethod {
 
