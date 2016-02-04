@@ -1,0 +1,3 @@
+This is the maven command to create a new module within the parent folder:
+
+mvn archetype:generate -DgroupId=org.denispozo.tutorial.thj.<new-chapter-number> -DartifactId=thj-<new-chapter>
