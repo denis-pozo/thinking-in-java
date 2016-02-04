@@ -37,6 +37,8 @@
   
   <modules>
     <module>thj-chapter-one</module>
+    <module>thj-chapter-two</module>
+    <module>thj-utils</module>
   </modules>
 
 </project>
