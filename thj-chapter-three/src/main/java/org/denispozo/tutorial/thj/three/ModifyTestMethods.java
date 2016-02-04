@@ -1,6 +1,6 @@
-package es.denis.thinking.chapThree;
+package org.denispozo.tutorial.thj.three;
 
-import static es.denis.thinking.utils.Print.*;
+import static org.denispozo.tutorial.thj.util.Print.*;
 
 //Chapter - Controlling Execution: Exercise 006
 

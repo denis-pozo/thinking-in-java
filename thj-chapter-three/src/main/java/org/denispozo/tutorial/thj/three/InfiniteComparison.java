@@ -1,15 +1,15 @@
-package es.denis.thinking.chapThree;
+package org.denispozo.tutorial.thj.three;
 
-import static es.denis.thinking.utils.Print.*;
+import static org.denispozo.tutorial.thj.util.Print.*;
 
-//Chapter - Controlling Execution: Exercise 02
+//Chapter - Controlling Execution: Exercise 03
 
-public class IfRandomValues {
+public class InfiniteComparison {
 
 	public static void main(String[] args) {
 		double rand = Math.random();
 		double randAux = Math.random();
-		for(int i = 0 ; i<25 ; i++){
+		while(true){
 			if(rand > randAux){
 				print(randAux + " less than " + rand);
 			}else if(rand < randAux){
@@ -22,5 +22,4 @@ public class IfRandomValues {
 		}
 
 	}
-
 }

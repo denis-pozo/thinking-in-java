@@ -1,10 +1,10 @@
-package es.denis.thinking.chapThree;
+package org.denispozo.tutorial.thj.three;
 
-import static es.denis.thinking.utils.Print.*;
+import static org.denispozo.tutorial.thj.util.Print.*;
 
 //Chapter - Controlling Execution: Exercise 01
 
-public class loopToHeaven {
+public class LoopToHeaven {
 
 	public static void main(String[] args) {
 		for(int i = 0 ; i < 100 ; i++){

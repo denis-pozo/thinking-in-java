@@ -1,10 +1,10 @@
-package es.denis.thinking.chapThree;
+package org.denispozo.tutorial.thj.three;
 
-import static es.denis.thinking.utils.Print.*;
+import static org.denispozo.tutorial.thj.util.Print.*;
 
 //Chapter - Controlling Execution: Exercise 007
 
-public class loopToHeavenBreak {
+public class LoopToHeavenBreak {
 	public static void main(String[] args) {
 		for(int i = 0 ; i < 150 ; i++){
 			print("" + (i+1));
