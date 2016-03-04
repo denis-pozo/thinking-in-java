@@ -36,11 +36,12 @@
   </developers>
   
   <modules>
-  	<module>thj-utils</module>
-    <module>thj-chapter-one</module>
-    <module>thj-chapter-two</module>
-    <module>thj-chapter-three</module>
-    <module>thj-chapter-four</module>
+  	<module>utils</module>
+    <module>everything-object</module>
+    <module>operators</module>
+    <module>controlling-execution</module>
+    <module>init-cleanup</module>
+    <module>access-control</module>
   </modules>
 
 </project>
