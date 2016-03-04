@@ -11,6 +11,6 @@ import org.denispozo.tutorial.thj.access.control.packages.protectedpack.Protecte
 @SuppressWarnings("unused")
 public class UnableToCallHey {
 	public static void main(String [] args) {
-		// ProtectedMethod.hey(); // Commented because of the error
+		// ProtectedMethod.hey(); // Commented because of the erro
 	}
 }
