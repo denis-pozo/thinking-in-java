@@ -2,7 +2,7 @@ package org.denispozo.tutorial.thj.initcleanup;
 
 import static org.denispozo.tutorial.thj.util.Print.*;
 
-import org.denispozo.tutorial.thj.initcleanup.PaperCurrency;
+import org.denispozo.tutorial.thj.initialization.enums.PaperCurrency;
 
 public class PaperCurrencyTest {
 
