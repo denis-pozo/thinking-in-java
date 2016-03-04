@@ -4,6 +4,12 @@ package org.denispozo.tutorial.thj.access.control;
 import org.denispozo.tutorial.thj.access.control.packages.List;
 import java.util.Vector;
 
+/*
+ * Chapter - Access Control
+ * Section - Creating unique package names
+ * Exercise 2
+ */
+
 public class Collisions {
 	@SuppressWarnings("unused")
 	public static void main(String [] args){
