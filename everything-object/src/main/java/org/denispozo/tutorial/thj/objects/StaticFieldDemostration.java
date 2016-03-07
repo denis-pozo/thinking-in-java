@@ -2,6 +2,7 @@ package org.denispozo.tutorial.thj.objects;
 
 public class StaticFieldDemostration {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		System.out.println("Exercice 8: Demostrate the behavior of the static attributes");
 		Incrementable sf = new Incrementable();

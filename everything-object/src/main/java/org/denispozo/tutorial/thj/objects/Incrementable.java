@@ -7,6 +7,7 @@ public class Incrementable {
 		i++; 
 	}
 	
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		System.out.println("Exercice 7: Write the class incrementable");
 		Incrementable sf = new Incrementable();
