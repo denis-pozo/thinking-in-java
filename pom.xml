@@ -42,6 +42,7 @@
     <module>controlling-execution</module>
     <module>init-cleanup</module>
     <module>access-control</module>
+    <module>reusing-classes</module>
   </modules>
 
 </project>
