@@ -6,6 +6,12 @@ import org.denispozo.tutorial.thj.access.control.connections.Connection;
 import org.denispozo.tutorial.thj.access.control.connections.ConnectionManager;
 import org.junit.Test;
 
+/*
+ * Chapter - Access Control
+ * Section - Class access
+ * Exercise 8
+ */
+
 public class ConnectionManagerTest {
 
 	@Test

@@ -4,7 +4,7 @@ import org.denispozo.tutorial.thj.access.control.packages.protectedpack.Protecte
 
 /*
  * Chapter - Access Control
- * Section - Protected: Inheritance access
+ * Section - Java Access Specifiers
  * Exercise 4
  */
 

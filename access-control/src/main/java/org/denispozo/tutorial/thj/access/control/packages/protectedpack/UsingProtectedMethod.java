@@ -2,7 +2,7 @@ package org.denispozo.tutorial.thj.access.control.packages.protectedpack;
 
 /*
  * Chapter - Access Control
- * Section - Protected: Inheritance access
+ * Section - Java Access Specifiers
  * Exercise 4
  */
 

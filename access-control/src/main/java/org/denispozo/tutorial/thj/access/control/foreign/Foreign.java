@@ -1,5 +1,11 @@
 package org.denispozo.tutorial.thj.access.control.foreign;
 
+/*
+ * Chapter - Access Control
+ * Section - Class access
+ * Exercise 9
+ */
+
 public class Foreign {
 
 	public static void main(String [] args) {

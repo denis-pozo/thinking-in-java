@@ -3,6 +3,12 @@ package org.denispozo.tutorial.thj.access.control.connections;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Chapter - Access Control
+ * Section - Class access
+ * Exercise 8
+ */
+
 public class ConnectionManager {
 /*
  * Following the form of the example Lunch.java create a class called connection manager

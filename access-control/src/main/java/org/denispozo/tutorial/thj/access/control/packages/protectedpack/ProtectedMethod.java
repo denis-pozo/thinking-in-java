@@ -4,7 +4,7 @@ import static org.denispozo.tutorial.thj.util.Print.*;
 
 /*
  * Chapter - Access Control
- * Section - Protected: Inheritance access
+ * Section - Java Access Specifiers
  * Exercise 4
  */
 
