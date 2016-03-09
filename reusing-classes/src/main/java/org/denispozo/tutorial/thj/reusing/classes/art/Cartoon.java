@@ -4,7 +4,7 @@ import static org.denispozo.tutorial.thj.util.Print.*;
 
 /*
  * Chapter - Reusing Classes
- * Section - Inheritance Syntax
+ * Section - Initializing the base class
  * Exercise 3
  */
 

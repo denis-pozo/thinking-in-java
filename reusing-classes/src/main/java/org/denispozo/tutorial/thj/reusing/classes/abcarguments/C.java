@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.reusing.classes.abc;
+package org.denispozo.tutorial.thj.reusing.classes.abcarguments;
 
 /*
  * Chapter - Reusing Classes
@@ -9,6 +9,10 @@ package org.denispozo.tutorial.thj.reusing.classes.abc;
 public class C extends A {
 	
 	@SuppressWarnings("unused")
-	private B b = new B();
+	private B b;
 
+	public C() {
+		super(0);
+		b = new B(1);
+	}
 }

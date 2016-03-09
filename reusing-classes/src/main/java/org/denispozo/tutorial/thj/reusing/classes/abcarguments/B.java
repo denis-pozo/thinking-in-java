@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.reusing.classes.abc;
+package org.denispozo.tutorial.thj.reusing.classes.abcarguments;
 
 import static org.denispozo.tutorial.thj.util.Print.*; 
 
@@ -8,10 +8,10 @@ import static org.denispozo.tutorial.thj.util.Print.*;
  * Exercise 5
  */
 
-public class A {
+public class B {
 	
-	public A(){
-		print("Hi, I'm A");
+	public B(int i){
+		print("Hi, I'm B");
 	}
 
 }

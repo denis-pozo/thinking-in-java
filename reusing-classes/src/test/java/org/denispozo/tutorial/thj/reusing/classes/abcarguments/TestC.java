@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.reusing.classes.abc;
+package org.denispozo.tutorial.thj.reusing.classes.abcarguments;
 
 import static org.junit.Assert.*;
 
@@ -7,7 +7,7 @@ import org.junit.Test;
 /*
  * Chapter - Reusing Classes
  * Section - Initializing the base class
- * Exercise 5
+ * Exercise 7
  */
 
 public class TestC {
