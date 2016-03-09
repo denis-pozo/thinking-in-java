@@ -6,6 +6,10 @@ public class Print {
 		System.out.println(string);
 	}
 	
+	public static void print(Object object){
+		print(object.toString());
+	}
+	
 	public static void print(){
 		print("");
 	}
