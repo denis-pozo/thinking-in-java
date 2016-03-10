@@ -6,7 +6,7 @@ import static org.denispozo.tutorial.thj.util.Print.*;
 /*
  * Chapter - Reusing Classes
  * Section - Delegation
- * Exercise 10
+ * Exercise 11
  */
 
 public class DetergentDelegation {
