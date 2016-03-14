@@ -6,7 +6,7 @@ import java.util.*;
 
 /*
  * Chapter - Reusing Classes
- * Section - Upcasting
+ * Section - Final Keyword
  * Exercise 18 
  */
 
