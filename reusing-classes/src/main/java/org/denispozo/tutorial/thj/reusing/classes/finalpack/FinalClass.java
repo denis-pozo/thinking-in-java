@@ -1,5 +1,11 @@
 package org.denispozo.tutorial.thj.reusing.classes.finalpack;
 
+/*
+ * Chapter - Reusing Classes
+ * Section - Final Classes
+ * Exercise 22 
+ */
+
 final class FinalClass {
 
 }
