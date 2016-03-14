@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.reusing.classes;
+package org.denispozo.tutorial.thj.reusing.classes.finalpack;
 
 import static org.denispozo.tutorial.thj.util.Print.*; 
 
