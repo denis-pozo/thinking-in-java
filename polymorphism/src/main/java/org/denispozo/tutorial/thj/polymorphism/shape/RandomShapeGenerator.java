@@ -5,19 +5,20 @@ import java.util.Random;
 /*
  * Chapter - Polymorphism
  * Section - Producing the Right Behavior
- * Exercise 2 
+ * Exercise 2, 3 and 4 
  */
 
 public class RandomShapeGenerator {
 		
-	private Random random = new Random(100);
+	private Random random = new Random(47);
 	
 	public Shape next() {
-		switch(random.nextInt(3)) {
+		switch(random.nextInt(4)) {
 			default:
 			case 0: return new Circle();
 			case 1: return new Triangle();
-			case 3: return new Square();
+			case 2: return new Square();
+			case 3: return new Rhombus();
 		}
 	}
 }

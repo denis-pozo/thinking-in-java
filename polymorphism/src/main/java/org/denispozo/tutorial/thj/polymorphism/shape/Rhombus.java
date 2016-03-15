@@ -8,21 +8,20 @@ import static org.denispozo.tutorial.thj.util.Print.*;
  * Exercise 2, 3 and 4
  */
 
-public class Circle extends Shape {
+public class Rhombus extends Shape {
 	
 	@Override
 	public void draw() {
-		print("Circle.draw()");
+		print("Rhombus.draw()");
 	}
 	
 	@Override
 	public void erase() {
-		print("Circle.erase()");
+		print("Rhombus.erase()");
 	}
 	
 	@Override
 	public void who() {
-		print("I am a Shape.Circle");
+		print("I am a Shape.Rhombus");
 	}
-
 }
