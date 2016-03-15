@@ -8,8 +8,13 @@ package org.denispozo.tutorial.thj.polymorphism.transport;
 
 public class Unicycle extends Cycle {
 	
+	@Override
+	public int wheels() {
+		return 1;
+	}	
+	
 	public static void main(String [] args) {
-		Unicycle uni = new Unicycle();
+		Cycle uni = new Unicycle();
 		uni.ride();
 	}
 }
