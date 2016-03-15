@@ -43,6 +43,7 @@
     <module>init-cleanup</module>
     <module>access-control</module>
     <module>reusing-classes</module>
+    <module>polymorphism</module>
   </modules>
 
 </project>
