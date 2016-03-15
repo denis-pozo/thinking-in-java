@@ -1,5 +1,11 @@
 package org.denispozo.tutorial.thj.polymorphism.shape;
 
+/*
+ * Chapter - Polymorphism
+ * Section - Producing the Right Behavior
+ * Exercise 2 
+ */
+
 public class Shapes {
 	
 	private static RandomShapeGenerator gen = new RandomShapeGenerator();
