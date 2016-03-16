@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.polymorphism.roden;
+package org.denispozo.tutorial.thj.polymorphism.rodent;
 
 import static org.denispozo.tutorial.thj.util.Print.*; 
 
@@ -8,17 +8,17 @@ import static org.denispozo.tutorial.thj.util.Print.*;
  * Exercise 8
  */
 
-public class Hamster extends Rodent {
+public class Gerbil extends Rodent {
 	
-	public Hamster() {
-		print("Hamster()");
+	public Gerbil() {
+		print("Gerbil()");
 	}
-	
+
 	public void gnaw() {
-		print("Hamster.gnaw()");
+		print("Gerbil.gnaw()");
 	}
 	
 	public void sniff() {
-		print("Hamster.sniff()");
+		print("Gerbil.sniff()");
 	}
 }

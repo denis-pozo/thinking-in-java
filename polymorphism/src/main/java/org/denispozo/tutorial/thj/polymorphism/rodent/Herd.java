@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.polymorphism.roden;
+package org.denispozo.tutorial.thj.polymorphism.rodent;
 
 import java.util.Random;
 
