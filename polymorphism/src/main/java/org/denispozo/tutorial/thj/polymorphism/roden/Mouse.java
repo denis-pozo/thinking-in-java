@@ -1,6 +1,8 @@
 package org.denispozo.tutorial.thj.polymorphism.roden;
 
-import static org.denispozo.tutorial.thj.util.Print.*; 
+import static org.denispozo.tutorial.thj.util.Print.*;
+
+import org.denispozo.tutorial.thj.polymorphism.Sandwich; 
 
 /*
  * Chapter - Polymorphism
@@ -9,6 +11,13 @@ import static org.denispozo.tutorial.thj.util.Print.*;
  */
 
 public class Mouse extends Rodent{
+	
+	@SuppressWarnings("unused")
+	private Sandwich sandwich = new Sandwich();
+	
+	public Mouse() {
+		print("Mouse()");
+	}
 	
 	public void gnaw() {
 		print("Mouse.gnaw()");

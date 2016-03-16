@@ -9,7 +9,11 @@ import static org.denispozo.tutorial.thj.util.Print.*;
  */
 
 public class Hamster extends Rodent {
-
+	
+	public Hamster() {
+		print("Hamster()");
+	}
+	
 	public void gnaw() {
 		print("Hamster.gnaw()");
 	}

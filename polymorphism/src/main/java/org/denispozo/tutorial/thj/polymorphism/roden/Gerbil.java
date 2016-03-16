@@ -9,6 +9,10 @@ import static org.denispozo.tutorial.thj.util.Print.*;
  */
 
 public class Gerbil extends Rodent {
+	
+	public Gerbil() {
+		print("Gerbil()");
+	}
 
 	public void gnaw() {
 		print("Gerbil.gnaw()");
