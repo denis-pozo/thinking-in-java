@@ -1,5 +1,11 @@
 package org.denispozo.tutorial.thj.interfaces.abstractions;
 
+/*
+ * Chapter - Interfaces
+ * Section - Abstract classes and methods
+ * Exercise 3
+ */
+
 public class SubClass extends AbstractClass {
 	
 	private int number = 3;
