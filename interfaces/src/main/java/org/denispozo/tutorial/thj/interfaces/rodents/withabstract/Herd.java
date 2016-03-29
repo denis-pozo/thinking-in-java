@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.interfaces.rodents;
+package org.denispozo.tutorial.thj.interfaces.rodents.withabstract;
 
 import java.util.Random;
 

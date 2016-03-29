@@ -1,14 +1,14 @@
-package org.denispozo.tutorial.thj.interfaces.rodents;
+package org.denispozo.tutorial.thj.interfaces.rodents.withinterface;
 
 import static org.denispozo.tutorial.thj.util.Print.*; 
 
 /*
  * Chapter - Interfaces
- * Section - Abstract classes and methods
- * Exercise 1
+ * Section - Interfaces
+ * Exercise 7
  */
 
-public class Hamster extends Rodent {
+public class Hamster implements Rodent {
 	
 	public Hamster() {
 		print("Hamster()");

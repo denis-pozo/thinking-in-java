@@ -1,14 +1,14 @@
-package org.denispozo.tutorial.thj.interfaces.rodents;
+package org.denispozo.tutorial.thj.interfaces.rodents.withinterface;
 
 import static org.denispozo.tutorial.thj.util.Print.*;
 
 /*
  * Chapter - Interfaces
- * Section - Abstract classes and methods
- * Exercise 1
+ * Section - Interfaces
+ * Exercise 7
  */
 
-public class Mouse extends Rodent{
+public class Mouse implements Rodent{
 	
 	public Mouse() {
 		print("Mouse()");
