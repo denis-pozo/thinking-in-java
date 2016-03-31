@@ -2,7 +2,6 @@ package org.denispozo.tutorial.thj.interfaces.scanner;
 
 import java.io.IOException;
 import java.nio.CharBuffer;
-import java.util.Random;
 import java.util.Scanner;
 
 /*
