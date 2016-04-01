@@ -45,6 +45,7 @@
     <module>reusing-classes</module>
     <module>polymorphism</module>
     <module>interfaces</module>
+    <module>inner-classes</module>
   </modules>
 
 </project>
