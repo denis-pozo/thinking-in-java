@@ -29,5 +29,4 @@ public class Outer {
 		Outer outer = new Outer();
 		Outer.Inner inner = outer.getInner();		
 	}
-
 }
