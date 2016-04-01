@@ -27,7 +27,6 @@ public class Outer2 {
 		}
 	}
 	
-	@SuppressWarnings("unused")
 	public static void main(String [] args) {
 		
 		Outer2 outer = new Outer2("Hello World!");
