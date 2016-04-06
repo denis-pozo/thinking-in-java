@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.innerclasses.horrorshow;
+package org.denispozo.tutorial.thj.innerclasses.anonymous.horrorshow;
 
 import static org.denispozo.tutorial.thj.util.Print.*;
 
