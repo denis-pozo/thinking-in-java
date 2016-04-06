@@ -4,8 +4,8 @@ import static org.denispozo.tutorial.thj.util.Print.*;
 
 /*
  * Chapter - Inner Classes
- * Section - The link to the outer class
- * Exercise 2
+ * Section - The link to the outer class / Using .this and .new
+ * Exercise 2 and 4
  */
 
 public class Sequence {
@@ -46,6 +46,11 @@ public class Sequence {
 			if(i < items.length){
 				i++;
 			}
+		}
+		
+		@SuppressWarnings("unused")
+		public Sequence getSequence() {
+			return Sequence.this;
 		}
 	}
 	
