@@ -29,6 +29,7 @@ public class PrivateOuter {
 	
 	class InnerOfPrivate {
 		
+		@SuppressWarnings("unused")
 		private String innerName = "INNER";
 		
 		public void setOuterName(String n) {
