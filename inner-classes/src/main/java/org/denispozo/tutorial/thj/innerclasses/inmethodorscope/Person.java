@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.innerclasses.innermethod;
+package org.denispozo.tutorial.thj.innerclasses.inmethodorscope;
 
 import static org.denispozo.tutorial.thj.util.Print.*;
 
@@ -22,7 +22,7 @@ public class Person {
 
 			@Override
 			public void sayHello() {
-				print("PrivateOuter with name: "+ name + " > Hello");
+				print("Person called "+ name + " > Hello");
 				
 			}
 		}

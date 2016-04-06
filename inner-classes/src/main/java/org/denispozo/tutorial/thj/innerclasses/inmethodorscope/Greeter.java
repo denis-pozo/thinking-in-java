@@ -1,6 +1,4 @@
-package org.denispozo.tutorial.thj.innerclasses.innermethod;
-
-import static org.denispozo.tutorial.thj.util.Print.*;
+package org.denispozo.tutorial.thj.innerclasses.inmethodorscope;
 
 /*
  * Chapter - Inner Classes
