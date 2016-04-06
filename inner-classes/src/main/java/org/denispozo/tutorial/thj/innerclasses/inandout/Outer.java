@@ -6,6 +6,7 @@ import static org.denispozo.tutorial.thj.util.Print.*;
  * Chapter - Inner Classes
  * Section - Creating inner classes
  * Exercise 1
+ * Classes used also in exercise 5
  */
 
 public class Outer {
