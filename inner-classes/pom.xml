@@ -14,7 +14,7 @@
 
   <groupId>org.denispozo.tutorial.thj.innerclasses</groupId>
   <artifactId>inner-classes</artifactId>
-  <package>jar</package>
+  <packaging>jar</packaging>
   <name>Inner Classes Chapter</name>
 
   <dependencies>
