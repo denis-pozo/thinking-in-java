@@ -3,7 +3,7 @@ package org.denispozo.tutorial.thj.innerclasses.controller;
 /*
  * Chapter - Inner Classes
  * Section - Inner Classes and Control Frameworks
- * Example
+ * Exercise 24
  */
 
 public abstract class Event {

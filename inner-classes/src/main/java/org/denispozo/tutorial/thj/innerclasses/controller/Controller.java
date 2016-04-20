@@ -8,7 +8,7 @@ import java.util.List;
 /*
  * Chapter - Inner Classes
  * Section - Inner Classes and Control Frameworks
- * Example
+ * Exercise 24
  */
 
 public class Controller {

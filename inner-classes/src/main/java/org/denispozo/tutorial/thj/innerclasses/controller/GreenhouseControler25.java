@@ -1,9 +1,15 @@
 package org.denispozo.tutorial.thj.innerclasses.controller;
 
-public class GreenhouseController {
+/*
+ * Chapter - Inner Classes
+ * Section - Inner Classes and Control Frameworks
+ * Exercise 25
+ */
+
+public class GreenhouseControler25 {
 	
 	public static void main(String [] args){
-		GreenhouseControls gc = new GreenhouseControls();
+		GreenhouseControlsSub gc = new GreenhouseControlsSub();
 		// Instead of hard-wiring, you could parse
 		// configuration information from a text file here:
 		gc.addEvent(gc.new Bell(900));
@@ -13,6 +19,8 @@ public class GreenhouseController {
 				gc.new LightOn(200),
 				gc.new LightOff(400),
 				gc.new WaterOn(600),
+				gc.new WaterMistOn(650),
+				gc.new WaterMistOff(700),
 				gc.new WaterOff(800),
 				gc.new FanOn(700),
 				gc.new FanOff(1000),
