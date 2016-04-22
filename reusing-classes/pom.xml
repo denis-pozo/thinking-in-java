@@ -16,9 +16,10 @@
   <artifactId>reusing-classes</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>Reusing Classes Chapter</name>
-
+  <packaging>jar</packaging>
+  
   <dependencies>
-     <dependency>
+    <dependency>
       <groupId>org.denispozo.tutorial.thj.util</groupId>
       <artifactId>utils</artifactId>
       <version>1.0-SNAPSHOT</version>

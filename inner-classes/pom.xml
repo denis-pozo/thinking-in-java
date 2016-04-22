@@ -14,16 +14,16 @@
 
   <groupId>org.denispozo.tutorial.thj.innerclasses</groupId>
   <artifactId>inner-classes</artifactId>
-  <packaging>jar</packaging>
   <name>Inner Classes Chapter</name>
-
+  <packaging>jar</packaging>
+  
   <dependencies>
-  	<dependency>
+    <dependency>
       <groupId>org.denispozo.tutorial.thj.util</groupId>
       <artifactId>utils</artifactId>
       <version>1.0-SNAPSHOT</version>
     </dependency>
-
+    
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

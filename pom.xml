@@ -46,6 +46,7 @@
     <module>polymorphism</module>
     <module>interfaces</module>
     <module>inner-classes</module>
+    <module>holding-objects</module>
   </modules>
 
 </project>
