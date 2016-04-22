@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.innerclasses.controller;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 import java.util.ArrayList;
 import java.util.List;

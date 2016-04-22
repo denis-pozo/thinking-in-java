@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.polymorphism.music;
 
-import static org.denispozo.tutorial.thj.util.Print.print;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
 /*
  * Chapter - Polymorphism

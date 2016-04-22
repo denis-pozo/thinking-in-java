@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.initcleanup;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 import org.denispozo.tutorial.thj.initialization.enums.PaperCurrency;
 

@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.util;
 
-public class Print {
+public class PrintUtil {
 	
 	public static void print(String string){
 		System.out.println(string);

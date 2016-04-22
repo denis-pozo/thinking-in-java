@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.innerclasses.inandout;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 /*
  * Chapter - Inner Classes

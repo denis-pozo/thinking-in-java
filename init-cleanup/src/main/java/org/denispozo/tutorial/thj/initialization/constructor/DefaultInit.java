@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.initialization.constructor;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 /*
  * Chapter - Initialization & Cleanup

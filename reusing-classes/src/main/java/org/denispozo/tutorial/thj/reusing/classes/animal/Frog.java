@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.reusing.classes.animal;
 
-import static org.denispozo.tutorial.thj.util.Print.print;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
 /*
  * Chapter - Reusing Classes

@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.operators;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 //Chapter - Operators: Exercise 11
 

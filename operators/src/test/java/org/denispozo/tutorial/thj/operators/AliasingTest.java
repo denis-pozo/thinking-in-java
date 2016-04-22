@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.operators;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 import static org.junit.Assert.*;
 
 import org.denispozo.tutorial.thj.operators.Aliasing;

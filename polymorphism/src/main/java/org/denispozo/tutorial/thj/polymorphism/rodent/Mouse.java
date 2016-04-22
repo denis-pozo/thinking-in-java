@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.polymorphism.rodent;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 import org.denispozo.tutorial.thj.polymorphism.Sandwich; 
 

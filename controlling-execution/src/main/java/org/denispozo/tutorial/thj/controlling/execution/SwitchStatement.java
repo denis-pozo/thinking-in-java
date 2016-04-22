@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.controlling.execution;
 
-import static org.denispozo.tutorial.thj.util.Print.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
  
 //Chapter - Controlling Execution: Exercise 008
 
