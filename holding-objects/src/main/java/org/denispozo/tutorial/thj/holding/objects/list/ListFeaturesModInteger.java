@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.holding.objects.ex5;
+package org.denispozo.tutorial.thj.holding.objects.list;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
@@ -18,10 +18,10 @@ public class ListFeaturesModInteger {
 	
 	public static void main(String[] args) {
 		Random rand = new Random(47);
-		List<Integer> integers = Arrays.asList(5, 2, 94, 5, 90, 121); 
+		List<Integer> integers = listOfRandInteger(7, 10); 
 		print("1: " + integers); 
-		int inte = 123;
-		integers.add(inte); // Exception - Implementation of Arrays.asList????
+		Integer inte = 123;
+		integers.add(inte);
 		print("2: " + integers);
 		print("3: " + integers.contains(inte));
 		integers.remove(inte);
@@ -67,6 +67,15 @@ public class ListFeaturesModInteger {
 		print("22: " + o[3]);
 		Integer[] pa = integers.toArray(new Integer[0]);
 		//print("23: " + pa[3].id());
+	}
+	
+	// method to make a List<Integer> with random values < n:
+	public static List<Integer> listOfRandInteger(int length, int n) {
+		Random rand = new Random();
+		List<Integer> li = new ArrayList<Integer>(); 
+		for(int i = 0; i < length; i++)
+			li.add(rand.nextInt(n)); 		
+		return li;	
 	}
 
 }

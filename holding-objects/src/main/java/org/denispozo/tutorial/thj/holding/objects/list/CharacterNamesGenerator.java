@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.holding.objects.ex5;
+package org.denispozo.tutorial.thj.holding.objects.list;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
@@ -7,7 +7,6 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.TreeSet;
 
 /*
