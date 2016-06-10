@@ -1,15 +1,14 @@
-package org.denispozo.tutorial.thj.holding.objects.ex1.ex8;
+package org.denispozo.tutorial.thj.holding.objects.ex01;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 /*
  * Chapter - Holding your Objects
- * Section - Iterator
- * Exercise 8
+ * Section - Generics and Type-Safe Containers
+ * Exercise 1
  */
 
 public class Gerbil {
@@ -32,9 +31,8 @@ public class Gerbil {
 			gerbils.add(new Gerbil());
 		}
 		
-		Iterator<Gerbil> it = gerbils.iterator();
-		while(it.hasNext()){
-			it.next().hop();
+		for(int i = 0 ; i < 10 ; i++){
+			gerbils.get(i).hop();
 		}
 	}
 }

@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.holding.objects.ex3;
+package org.denispozo.tutorial.thj.holding.objects.ex03;
 
 /*
  * Chapter - Holding your Objects

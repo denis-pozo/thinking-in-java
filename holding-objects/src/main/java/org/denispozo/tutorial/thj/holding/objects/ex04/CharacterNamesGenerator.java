@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.holding.objects.ex4;
+package org.denispozo.tutorial.thj.holding.objects.ex04;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
