@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.holding.objects.ex11;
+package org.denispozo.tutorial.thj.holding.objects.ex12;
 
 import java.util.ArrayList;
 import java.util.Arrays;
