@@ -10,7 +10,7 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 /*
  * Chapter - Holding your Objects
  * Section - Iterator
- * Exercise 12
+ * Exercise 11
  */
 
 public class ListIteratorExample {
@@ -46,12 +46,3 @@ public class ListIteratorExample {
 		print(reverse);
 	}
 }
-
-
-//List<Integer> first = new ArrayList<Integer>(10);
-//List<Integer> reverse = new ArrayList<Integer>(10);
-//
-
-//
-//print(first);
-//print(reverse);

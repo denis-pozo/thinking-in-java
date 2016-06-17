@@ -14,7 +14,7 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 /*
  * Chapter - Holding your Objects
  * Section - Iterator
- * Exercise 11
+ * Exercise 12
  */
 
 public class IteratorPrinter {
