@@ -8,6 +8,11 @@ import java.util.TreeSet;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
+/*
+ * Chapter - Holding your objects
+ * Section - Map
+ * Exercise 24
+ */
 public class Ex24{	
 	public static void main(String[] args) {
 		Map<String,Integer> m = 
