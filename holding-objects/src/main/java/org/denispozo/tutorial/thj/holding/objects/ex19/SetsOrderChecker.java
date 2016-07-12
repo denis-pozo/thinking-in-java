@@ -9,7 +9,7 @@ import java.util.Set;
 /*
  * Chapter - Holding your Objects
  * Section - Map
- * Exercise 10
+ * Exercise 19
  */
 
 public class SetsOrderChecker {
