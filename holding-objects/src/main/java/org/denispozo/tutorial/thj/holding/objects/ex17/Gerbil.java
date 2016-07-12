@@ -1,9 +1,9 @@
 package org.denispozo.tutorial.thj.holding.objects.ex17;
 
-import static org.denispozo.tutorial.thj.util.PrintUtil.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 /*
  * Chapter - Holding your Objects
@@ -25,14 +25,19 @@ public class Gerbil {
 	}
 	
 	public static void main(String [] args) {
-		List<Gerbil> gerbils = new ArrayList<Gerbil>();
+		Map<String, Gerbil> gerbils = new HashMap<String, Gerbil>();
 		
-		for(int i = 0 ; i < 10 ; i++){
-			gerbils.add(new Gerbil());
-		}
-		
-		for(int i = 0 ; i < 10 ; i++){
-			gerbils.get(i).hop();
+		gerbils.put("Fuzzy", new Gerbil());
+		gerbils.put("Fizzy", new Gerbil());
+		gerbils.put("Fazzy", new Gerbil());
+		gerbils.put("Spot", new Gerbil());
+		gerbils.put("Lili", new Gerbil());
+		gerbils.put("Bob", new Gerbil());
+		gerbils.put("Casper", new Gerbil());
+				
+		for(String name : gerbils.keySet()){
+			print(name);
+			gerbils.get(name).hop();
 		}
 	}
 }
