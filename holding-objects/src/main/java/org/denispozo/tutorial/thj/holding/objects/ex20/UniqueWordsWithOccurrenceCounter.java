@@ -3,7 +3,7 @@ package org.denispozo.tutorial.thj.holding.objects.ex20;
 /*
  * Chapter - Holding your objects
  * Section - Set
- * Exercise 16
+ * Exercise 20
  */
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
@@ -14,7 +14,7 @@ import java.util.TreeSet;
 
 import org.denispozo.tutorial.thj.util.TextFile;
 
-public class UniqueWords {
+public class UniqueWordsWithOccurrenceCounter {
 	
 	public static void main(String[] args) {
 		int count = 0;
