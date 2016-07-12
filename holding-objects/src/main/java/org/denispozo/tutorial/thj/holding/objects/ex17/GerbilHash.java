@@ -11,12 +11,12 @@ import java.util.Map;
  * Exercise 17
  */
 
-public class Gerbil {
+public class GerbilHash {
 	
 	private static int createdGerbils = 0;
 	private int gerbilNumber;
 	
-	public Gerbil() {
+	public GerbilHash() {
 		gerbilNumber = createdGerbils++;
 	}
 	
@@ -25,15 +25,15 @@ public class Gerbil {
 	}
 	
 	public static void main(String [] args) {
-		Map<String, Gerbil> gerbils = new HashMap<String, Gerbil>();
+		Map<String, GerbilHash> gerbils = new HashMap<String, GerbilHash>();
 		
-		gerbils.put("Fuzzy", new Gerbil());
-		gerbils.put("Fizzy", new Gerbil());
-		gerbils.put("Fazzy", new Gerbil());
-		gerbils.put("Spot", new Gerbil());
-		gerbils.put("Lili", new Gerbil());
-		gerbils.put("Bob", new Gerbil());
-		gerbils.put("Casper", new Gerbil());
+		gerbils.put("Fuzzy", new GerbilHash());
+		gerbils.put("Fizzy", new GerbilHash());
+		gerbils.put("Fazzy", new GerbilHash());
+		gerbils.put("Spot", new GerbilHash());
+		gerbils.put("Lili", new GerbilHash());
+		gerbils.put("Bob", new GerbilHash());
+		gerbils.put("Casper", new GerbilHash());
 				
 		for(String name : gerbils.keySet()){
 			print(name);
