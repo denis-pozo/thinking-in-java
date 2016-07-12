@@ -2,7 +2,7 @@ package org.denispozo.tutorial.thj.holding.objects.ex21;
 
 /*
  * Chapter - Holding your objects
- * Section - Set
+ * Section - Map
  * Exercise 21
  */
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
