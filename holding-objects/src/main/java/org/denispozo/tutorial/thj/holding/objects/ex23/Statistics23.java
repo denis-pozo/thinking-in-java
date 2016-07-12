@@ -7,18 +7,12 @@ package org.denispozo.tutorial.thj.holding.objects.ex23;
  */
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.Set;
 import java.util.TreeMap;
-
-import org.denispozo.tutorial.thj.util.TextFile;
 
 public class Statistics23 {
 	
