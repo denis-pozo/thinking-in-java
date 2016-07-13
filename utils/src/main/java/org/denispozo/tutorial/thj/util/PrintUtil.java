@@ -34,23 +34,27 @@ public class PrintUtil {
 		System.out.print(string + " ");
 	}
 	
+	public static void printnr(Object object){
+		printnr(object.toString());
+	}
+	
 	public static void printnr(){
-		print("");
+		printnr("");
 	}
 		
 	public static void printnr(int i){
-		print("" + i);
+		printnr("" + i);
 	}
 	
 	public static void printnr(float f){
-		print("" + f);
+		printnr("" + f);
 	}
 	
 	public static void printnr(double d){
-		print("" + d);
+		printnr("" + d);
 	}
 	
 	public static void printnr(long l){
-		print("" + l);
+		printnr("" + l);
 	}
 }

@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.holding.objects.queue;
 
-import static org.denispozo.tutorial.thj.util.PrintUtil.print;
+import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -17,9 +17,9 @@ public class QueueDemo {
 	@SuppressWarnings("rawtypes")
 	public static void printQ(Queue queue){
 		while(queue.peek() != null){
-			print(queue.remove());
+			printnr(queue.remove());
 		}
-		print("-*-*-");
+		print();
 	}
 	
 	public static void main(String[] args) {
