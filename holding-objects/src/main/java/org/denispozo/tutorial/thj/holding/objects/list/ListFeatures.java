@@ -9,6 +9,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
+/*
+ * Chapter - Holding your Objects
+ * Section - Lists
+ * Book Example
+ */
+
 public class ListFeatures {
 	
 	public static void main(String[] args) {

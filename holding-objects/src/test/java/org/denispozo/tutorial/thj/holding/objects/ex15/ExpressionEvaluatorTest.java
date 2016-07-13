@@ -1,10 +1,11 @@
 package org.denispozo.tutorial.thj.holding.objects.ex15;
 
 import static org.junit.Assert.*;
+
+import org.denispozo.tutorial.thj.holding.objects.stack.ExpressionEvaluatorEx15;
 import org.junit.Test;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.*;
-import org.denispozo.tutorial.thj.holding.objects.ex15.ExpressionEvaluator;
 
 /*
  * Chapter - Holding your objects
@@ -15,7 +16,7 @@ import org.denispozo.tutorial.thj.holding.objects.ex15.ExpressionEvaluator;
 public class ExpressionEvaluatorTest {
 	
 	String expression = "+U+n+c---+e+r+t---+a-+i-+n+t+y---+ -+r+u--+l+e+s---";
-	ExpressionEvaluator eEvaluator = new ExpressionEvaluator();
+	ExpressionEvaluatorEx15 eEvaluator = new ExpressionEvaluatorEx15();
 	
 	@Test
 	public void testStringEvalMethod() {
