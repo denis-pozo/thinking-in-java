@@ -90,6 +90,7 @@ public class CollectionSequenceEx30 implements Collection<Pet> {
 		throw new UnsupportedOperationException();
 	}
 
+	@SuppressWarnings("unused")
 	@Override
 	public void clear() {
 		
