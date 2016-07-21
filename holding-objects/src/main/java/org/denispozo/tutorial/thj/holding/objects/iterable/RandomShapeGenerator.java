@@ -10,9 +10,9 @@ import org.denispozo.tutorial.thj.polymorphism.shape.Square;
 import org.denispozo.tutorial.thj.polymorphism.shape.Triangle;
 
 /*
- * Chapter - Polymorphism
- * Section - Producing the Right Behavior
- * Exercise 2, 3 and 4 
+ * Chapter - Holding your objects
+ * Section - For each and iterators
+ * Exercise 31
  */
 
 public class RandomShapeGenerator implements Iterable<Shape> {
