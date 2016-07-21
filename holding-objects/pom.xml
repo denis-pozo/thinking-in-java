@@ -26,6 +26,12 @@
     </dependency>
     
     <dependency>
+      <groupId>org.denispozo.tutorial.thj.polymorphism</groupId>
+      <artifactId>polymorphism</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
       <groupId>org.denispozo.tutorial.thj.typeinfo</groupId>
       <artifactId>type-info</artifactId>
       <version>1.0-SNAPSHOT</version>
