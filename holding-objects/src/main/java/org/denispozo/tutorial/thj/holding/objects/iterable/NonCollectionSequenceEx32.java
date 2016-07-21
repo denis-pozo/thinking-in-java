@@ -19,7 +19,7 @@ import org.denispozo.tutorial.thj.typeinfo.pets.Pets;
  * Exercise 32
  */
 
-public class NonCollectionSequence extends PetSequence implements Iterable<Pet> {
+public class NonCollectionSequenceEx32 extends PetSequence implements Iterable<Pet> {
 
 	public Iterator<Pet> iterator() {
 		return new Iterator<Pet>() {
@@ -75,7 +75,7 @@ public class NonCollectionSequence extends PetSequence implements Iterable<Pet> 
 	
 	
 	public static void main(String[] args) {
-		NonCollectionSequence c = new NonCollectionSequence();
+		NonCollectionSequenceEx32 c = new NonCollectionSequenceEx32();
 		
 		for(Pet pet : c.reversed()){
 			printnr(pet);

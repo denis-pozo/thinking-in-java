@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.holding.objects.ex15;
+package org.denispozo.tutorial.thj.holding.objects.stack;
 
 import static org.junit.Assert.*;
 

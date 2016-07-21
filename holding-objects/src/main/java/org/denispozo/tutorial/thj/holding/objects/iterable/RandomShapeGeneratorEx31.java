@@ -15,13 +15,13 @@ import org.denispozo.tutorial.thj.polymorphism.shape.Triangle;
  * Exercise 31
  */
 
-public class RandomShapeGenerator implements Iterable<Shape> {
+public class RandomShapeGeneratorEx31 implements Iterable<Shape> {
 		
 	private Random random = new Random(47);
 	
 	private int numShapes;
 	
-	public RandomShapeGenerator(int numShapes){
+	public RandomShapeGeneratorEx31(int numShapes){
 		this.numShapes = numShapes;
 	}
 	
@@ -49,7 +49,7 @@ public class RandomShapeGenerator implements Iterable<Shape> {
 	
 	public static void main(String[] args) {
 
-		for(Shape shape : new RandomShapeGenerator(10)){
+		for(Shape shape : new RandomShapeGeneratorEx31(10)){
 			shape.draw();
 		}
 	}
