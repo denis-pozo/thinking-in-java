@@ -2,10 +2,7 @@ package org.denispozo.tutorial.thj.holding.objects;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.printnr;
 
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
-import java.util.LinkedList;
 
 /*
  * Chapter - Holding your objects
