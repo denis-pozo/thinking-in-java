@@ -49,6 +49,7 @@
     <module>inner-classes</module>
     <module>holding-objects</module>
     <module>type-info</module>
+    <module>error-handling</module>
   </modules>
 
 </project>
