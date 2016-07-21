@@ -1,13 +1,12 @@
 package org.denispozo.tutorial.thj.holding.objects;
 
-import static org.denispozo.tutorial.thj.util.PrintUtil.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.TreeSet;
 
 /*
