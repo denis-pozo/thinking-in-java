@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 /*
  * Chapter - Error Handling with Exceptions
- * Section - Creating your Own Exceptions
+ * Section - Exceptions and Logging
  * Exercise 6
  */
 
