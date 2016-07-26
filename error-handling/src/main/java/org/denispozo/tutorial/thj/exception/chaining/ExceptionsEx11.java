@@ -3,7 +3,7 @@ package org.denispozo.tutorial.thj.exception.chaining;
 /*
  * Chapter - Error Handling with Exceptions
  * Section - Exception Chaining
- * Exercise 10
+ * Exercise 11
  */
 
 public class ExceptionsEx11 {
