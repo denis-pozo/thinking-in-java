@@ -5,19 +5,22 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 /*
  * Chapter - Error Handling with Exceptions
  * Section - What's finally for?
- * Example
+ * Example and Exercise 14
  */
 
-public class OnOffSwitch {
+public class OnOffSwitchAndEx14 {
 
 	private static Switch sw = new Switch();
+	static Integer[] x = new Integer[1];
 	
-	public static void f() throws OnOffException1, OnOffException2 { }
+	public static void f(int i) throws OnOffException1, OnOffException2 { }
 
 	public static void main(String[] args) {
 		try{
 			sw.on();
-			f();
+			// Code that can throw RuntimeException
+			// and leave Switch on:
+			f(x[0]);
 			sw.off();
 		} catch (OnOffException1 e1) {
 			print("OnOffExcption1");

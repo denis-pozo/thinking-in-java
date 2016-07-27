@@ -8,16 +8,18 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.print;
  * Example
  */
 
-public class OnOffSwitchWithFinally {
+public class OnOffSwitchWithFinallyAndEx15 {
 
 	private static Switch sw = new Switch();
 	
-	public static void f() throws OnOffException1, OnOffException2 { }
+	static Integer[] x = new Integer[1];
+	
+	public static void f(int i) throws OnOffException1, OnOffException2 { }
 
 	public static void main(String[] args) {
 		try{
 			sw.on();
-			f();
+			f(x[0]);
 		} catch (OnOffException1 e1) {
 			print("OnOffExcption1");
 		} catch (OnOffException2 e2) {
