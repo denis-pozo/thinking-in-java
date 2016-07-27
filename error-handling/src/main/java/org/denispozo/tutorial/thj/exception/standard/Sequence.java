@@ -1,13 +1,9 @@
 package org.denispozo.tutorial.thj.exception.standard;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
-import java.util.logging.Logger;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
 import org.denispozo.tutorial.thj.innerclasses.inandout.Selector;
 import org.denispozo.tutorial.thj.innerclasses.inandout.StringHolder;
-
-import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 /*
  * Chapter - Error Handling with Exceptions
