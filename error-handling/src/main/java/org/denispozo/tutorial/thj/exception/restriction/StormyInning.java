@@ -84,10 +84,22 @@ abstract class Inning {
 	public void walk() {} // Throws no checked exceptions
 }
 
-class BaseballException extends Exception {}
-class Foul extends Exception {}
-class Strike extends Exception {}
-class StormException extends Exception {}
-class RainedOut extends StormException {}
-class PopFoul extends Foul {}
+class BaseballException extends Exception {
+	private static final long serialVersionUID = 1L;
+}
+class Foul extends Exception {
+	private static final long serialVersionUID = 1L;
+}
+class Strike extends Exception {
+	private static final long serialVersionUID = 1L;
+}
+class StormException extends Exception {
+	private static final long serialVersionUID = 1L;
+}
+class RainedOut extends StormException {
+	private static final long serialVersionUID = 1L;
+}
+class PopFoul extends Foul {
+	private static final long serialVersionUID = 1L;
+}
 
