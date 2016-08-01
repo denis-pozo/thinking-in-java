@@ -5,7 +5,7 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 /*
  * Chapter - Error Handling with Exceptions
  * Section - Constructors
- * Example
+ * Exercise 21
  */
 
 public class ConstructorsEx21 {
