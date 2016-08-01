@@ -9,7 +9,7 @@ import java.io.IOException;
 
 /*
  * Chapter - Error Handling with Exceptions
- * Section - Exception Restrictions
+ * Section - Constructors
  * Example
  */
 
