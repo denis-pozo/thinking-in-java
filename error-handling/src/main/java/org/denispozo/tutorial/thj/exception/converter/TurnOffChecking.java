@@ -7,7 +7,7 @@ import java.io.IOException;
 
 /*
  * Chapter - Error Handling with Exceptions
- * Section - Passing exceptions to the console
+ * Section - Converting checked to unchecked exceptions
  * Example
  */
 

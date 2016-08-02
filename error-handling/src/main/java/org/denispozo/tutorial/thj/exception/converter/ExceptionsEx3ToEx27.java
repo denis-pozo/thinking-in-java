@@ -2,7 +2,7 @@ package org.denispozo.tutorial.thj.exception.converter;
 
 /*
  * Chapter - Error Handling with Exceptions
- * Section - Passing exceptions to the console
+ * Section - Converting checked to unchecked exceptions
  * Exercise 27
  */
 
