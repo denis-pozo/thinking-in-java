@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj;
+package org.denispozo.tutorial.thj.strings;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
