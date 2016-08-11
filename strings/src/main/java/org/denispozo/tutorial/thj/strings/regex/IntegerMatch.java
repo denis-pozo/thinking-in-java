@@ -2,7 +2,7 @@ package org.denispozo.tutorial.thj.strings.regex;
 
 /*
  * Chapter - Strings
- * Section - The Formatter Class
+ * Section - Regular Expressions
  * Example
  */
 
