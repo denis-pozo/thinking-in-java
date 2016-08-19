@@ -49,11 +49,10 @@
     <module>polymorphism</module>
     <module>interfaces</module>
     <module>inner-classes</module>
+    <module>type-information</module>
     <module>holding-objects</module>
-    <module>type-info</module>
     <module>error-handling</module>
     <module>strings</module>
-    <module>type-information</module>
   </modules>
 
 </project>

@@ -32,8 +32,8 @@
     </dependency>
     
     <dependency>
-      <groupId>org.denispozo.tutorial.thj.typeinfo</groupId>
-      <artifactId>type-info</artifactId>
+      <groupId>org.denispozo.tutorial.thj.type.information</groupId>
+      <artifactId>type-information</artifactId>
       <version>${project.version}</version>
     </dependency>
     
