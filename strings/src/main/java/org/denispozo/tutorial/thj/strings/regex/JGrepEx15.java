@@ -18,7 +18,7 @@ public class JGrepEx15 {
 	public static void main(String [] args){
 		
 		if(args.length < 3) { 
-			print("Usage: java JGrep file regex flag");
+			print("Usage: java JGrepEx15 file regex flag");
 			System.exit(0);
 		}
 		
@@ -40,7 +40,7 @@ public class JGrepEx15 {
 			flag = Pattern.UNIX_LINES;
 		} 
 
-		Pattern p = Pattern.compile(args[0], flag);
+		Pattern p = Pattern.compile(args[1], flag);
 		// Iterate through the lines of the input file:
 		int index = 0;
 		Matcher m = p.matcher(""); // creates empty Matcher object
