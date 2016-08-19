@@ -23,6 +23,7 @@ public class ScannerEx20 {
 		f = sc.nextFloat();
 		d = sc.nextDouble();
 		this.s = sc.next(); 		
+		sc.close();
 	}
 	
 	public String toString() {
