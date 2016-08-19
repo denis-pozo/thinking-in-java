@@ -53,6 +53,7 @@
     <module>type-info</module>
     <module>error-handling</module>
     <module>strings</module>
+    <module>type-information</module>
   </modules>
 
 </project>
