@@ -7,5 +7,8 @@ package org.denispozo.tutorial.thj.type.information.shapes;
  */
 
 class RhomboidEx3 extends Shape {
-	@Override public String toString() { return "Rhomboid"; }
+	
+	@Override public String toString() { 
+		return (isHighlighted() ? "H" : "Unh") + "ighlighted " + "Rhomboid";   
+	}
 }
