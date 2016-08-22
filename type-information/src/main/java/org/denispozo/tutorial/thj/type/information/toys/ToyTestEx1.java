@@ -8,7 +8,7 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.print;
  * Example
  */
 
-public class ToyTest {
+public class ToyTestEx1 {
 	
 	@SuppressWarnings("rawtypes")
 	static void printInfo(Class cc) {
@@ -23,7 +23,7 @@ public class ToyTest {
 		Class c = null;
 		
 		try{
-			c = Class.forName("org.denispozo.tutorial.thj.type.information.toys.FancyToy");
+			c = Class.forName("org.denispozo.tutorial.thj.type.information.toys.FancyToyEx1");
 		} catch (ClassNotFoundException e) {
 			print("Can't find FancyToy");
 			System.exit(1);
@@ -38,7 +38,9 @@ public class ToyTest {
 		try{
 			obj = up.newInstance();
 		} catch (InstantiationException e) {
-			print("Can't instantiate");
+			/* Explanation: Exception is thrown here because there is no 
+			 * default constructor for the superclass */
+			print("Can't instantiate"); 
 			System.exit(1);
 		} catch (IllegalAccessException e) {
 			print("Can't access");
@@ -52,21 +54,21 @@ public class ToyTest {
 }
 
 
-interface HasBatteries {}
-interface Waterproof {}
-interface Shoots {}
+interface HasBatteriesEx1 {}
+interface WaterproofEx1 {}
+interface ShootsEx1 {}
 
-class Toy {
+class ToyEx1 {
 	/*
 	 * Comment out the following default constructor
 	 * to see NoSuchMethodError from (*1*) 
 	 */
-	Toy() {}
-	Toy(int i) {}
+//	ToyEx1() {}
+	ToyEx1(int i) {}
 }
 
-class FancyToy extends Toy 
-			   implements HasBatteries, Waterproof, Shoots {
-	FancyToy() { super(1); }
+class FancyToyEx1 extends ToyEx1 
+			   implements HasBatteriesEx1, WaterproofEx1, ShootsEx1 {
+	FancyToyEx1() { super(1); }
 
 }
