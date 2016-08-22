@@ -29,6 +29,7 @@ public class SweetShopEx7 {
 			System.exit(0);
 		}
 		
+		@SuppressWarnings("unused")
 		Class c = null;
 		try {
 			c = Class.forName("org.denispozo.tutorial.thj.type.information." + args[0]);
