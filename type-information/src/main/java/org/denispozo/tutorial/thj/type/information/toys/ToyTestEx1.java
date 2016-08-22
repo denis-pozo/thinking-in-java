@@ -5,7 +5,7 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 /*
  * Chapter - Type Information
  * Section - The Class Object
- * Example
+ * Exercise 1
  */
 
 public class ToyTestEx1 {

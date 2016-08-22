@@ -1,7 +1,5 @@
 package org.denispozo.tutorial.thj.type.information.shapes;
 
-import static org.denispozo.tutorial.thj.util.PrintUtil.print;
-
 import java.util.Arrays;
 import java.util.List;
 
