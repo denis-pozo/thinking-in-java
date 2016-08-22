@@ -3,12 +3,20 @@ package org.denispozo.tutorial.thj.type.information;
 /*
  * Chapter - Type Information
  * Section - The Class Object
- * Exercise 8
+ * Exercise 9
  */
 
-public class Exercise8 {
+public class Exercise9 {
 	public static void hierarchy(Object o) {
-		if(o.getClass().getSuperclass() != null) {		
+		Object[] fields = o.getClass().getDeclaredFields();
+		if(fields.length == 0)
+			System.out.println(o.getClass() + " has no fields");
+		if(fields.length > 0) {
+			System.out.println("Field(s) of " + o.getClass() + ":");
+			for(Object obj : fields) 
+				System.out.println(" " + obj);
+		}
+		if(o.getClass().getSuperclass() != null) {			
 			System.out.println(o.getClass() + " is a subclass of " + 
 				o.getClass().getSuperclass()); 
 			try {
@@ -19,14 +27,14 @@ public class Exercise8 {
 				System.out.println("Unable to access");
 			}
 		} 
-	}		
+	}
 	public static void main(String[] args) {
 		hierarchy(new C());
 	}
 }
 
-class A {}
+class X {}
 
-class B extends A {}
+class Y extends X {}
 
-class C extends B {}
+class Z extends Y {}
