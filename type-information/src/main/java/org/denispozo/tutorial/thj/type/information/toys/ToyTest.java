@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.type.information;
+package org.denispozo.tutorial.thj.type.information.toys;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
@@ -23,7 +23,7 @@ public class ToyTest {
 		Class c = null;
 		
 		try{
-			c = Class.forName("typeinfo.toys.FancyToy");
+			c = Class.forName("org.denispozo.tutorial.thj.type.information.toys.FancyToy");
 		} catch (ClassNotFoundException e) {
 			print("Can't find FancyToy");
 			System.exit(1);

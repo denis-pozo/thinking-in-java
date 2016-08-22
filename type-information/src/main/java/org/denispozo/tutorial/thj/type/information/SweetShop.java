@@ -31,7 +31,7 @@ public class SweetShop {
 		 * since Gum is never loaded and therefore
 		 * the exception is thrown always.
 		 */
-			Class.forName("Gum");
+			Class.forName("org.denispozo.tutorial.thj.type.information.Gum");
 		} catch (ClassNotFoundException cnfe) { 
 			print("Couldn't find Gum");
 		}
