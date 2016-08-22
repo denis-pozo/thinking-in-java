@@ -27,10 +27,6 @@ public class SweetShop {
 		print("After creating Candy");
 		
 		try {
-		/* This example is not working properly, 
-		 * since Gum is never loaded and therefore
-		 * the exception is thrown always.
-		 */
 			Class.forName("org.denispozo.tutorial.thj.type.information.Gum");
 		} catch (ClassNotFoundException cnfe) { 
 			print("Couldn't find Gum");
