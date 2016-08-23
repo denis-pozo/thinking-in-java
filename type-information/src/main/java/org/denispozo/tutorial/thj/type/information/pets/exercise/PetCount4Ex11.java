@@ -1,8 +1,9 @@
-package org.denispozo.tutorial.thj.type.information.pets;
+package org.denispozo.tutorial.thj.type.information.pets.exercise;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 import static org.denispozo.tutorial.thj.util.PrintUtil.printnr;
 
+import org.denispozo.tutorial.thj.type.information.pets.Pet;
 import org.denispozo.tutorial.thj.util.TypeCounter;
 
 /*

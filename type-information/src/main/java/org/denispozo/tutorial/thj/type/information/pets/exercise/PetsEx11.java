@@ -1,6 +1,9 @@
-package org.denispozo.tutorial.thj.type.information.pets;
+package org.denispozo.tutorial.thj.type.information.pets.exercise;
 
 import java.util.ArrayList;
+
+import org.denispozo.tutorial.thj.type.information.pets.Pet;
+import org.denispozo.tutorial.thj.type.information.pets.PetCreator;
 
 /*
  * Chapter - Type Information

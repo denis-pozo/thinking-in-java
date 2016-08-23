@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.type.information.pets;
+package org.denispozo.tutorial.thj.type.information.pets.exercise;
 
 /*
  * Chapter - Type Information

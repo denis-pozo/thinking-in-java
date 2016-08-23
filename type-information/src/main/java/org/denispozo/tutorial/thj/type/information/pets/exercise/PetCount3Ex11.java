@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.type.information.pets;
+package org.denispozo.tutorial.thj.type.information.pets.exercise;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 import static org.denispozo.tutorial.thj.util.PrintUtil.printnr;
@@ -6,6 +6,8 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.printnr;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import org.denispozo.tutorial.thj.type.information.pets.Pet;
+import org.denispozo.tutorial.thj.type.information.pets.Pets;
 import org.denispozo.tutorial.thj.util.MapData;
 
 /*

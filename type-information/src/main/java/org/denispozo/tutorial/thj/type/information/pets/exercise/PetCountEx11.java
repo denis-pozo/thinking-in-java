@@ -1,8 +1,22 @@
-package org.denispozo.tutorial.thj.type.information.pets;
+package org.denispozo.tutorial.thj.type.information.pets.exercise;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 import java.util.HashMap;
+
+import org.denispozo.tutorial.thj.type.information.pets.Cat;
+import org.denispozo.tutorial.thj.type.information.pets.Cymric;
+import org.denispozo.tutorial.thj.type.information.pets.Dog;
+import org.denispozo.tutorial.thj.type.information.pets.EgyptianMau;
+import org.denispozo.tutorial.thj.type.information.pets.Hamster;
+import org.denispozo.tutorial.thj.type.information.pets.Manx;
+import org.denispozo.tutorial.thj.type.information.pets.Mouse;
+import org.denispozo.tutorial.thj.type.information.pets.Mutt;
+import org.denispozo.tutorial.thj.type.information.pets.Pet;
+import org.denispozo.tutorial.thj.type.information.pets.PetCreator;
+import org.denispozo.tutorial.thj.type.information.pets.Pug;
+import org.denispozo.tutorial.thj.type.information.pets.Rat;
+import org.denispozo.tutorial.thj.type.information.pets.Rodent;
 
 /*
  * Chapter - Type Information
