@@ -3,9 +3,11 @@ package org.denispozo.tutorial.thj.type.information.pets;
 public class Individual {
 	private static long COUNTER;
 	private final long id = COUNTER++;
-	private String name;
+	private final String name;
 	
-	public Individual(){ }
+	public Individual(){
+		name = "";
+	}
 	
 	public Individual(String name){
 		this.name = name;
