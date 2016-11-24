@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.type.information.pets.exercise;
 
-import org.denispozo.tutorial.thj.type.information.pets.Rodent;
+import org.denispozo.tutorial.thj.type.information.shop.pet.Rodent;
 
 /*
  * Chapter - Type Information

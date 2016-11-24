@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.type.information.pets;
+package org.denispozo.tutorial.thj.type.information.shop.pet;
 
 public class Individual {
 	private static long COUNTER;
