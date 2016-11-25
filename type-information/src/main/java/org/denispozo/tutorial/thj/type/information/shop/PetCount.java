@@ -48,8 +48,10 @@ public class PetCount {
 	public static void main(String[] args) {
 		// Using ForNameCreator
 		// countPets(new ForNameCreator());
+		
 		// Using LiteralPetCreator()
 		// countPets(new LiteralPetCreator());
+		
 		// Using the façade
 		countPets(Pets.creator);
 	}
