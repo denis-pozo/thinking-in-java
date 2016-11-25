@@ -17,9 +17,6 @@ import org.denispozo.tutorial.thj.type.information.shop.pet.Pug;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Rat;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Rodent;
 
-import sun.applet.Main;
-
-
 // This class is actually the client of the pet creator
 public class PetCount {
 	
@@ -50,6 +47,7 @@ public class PetCount {
 	
 	public static void main(String[] args) {
 		countPets(new ForNameCreator());
+		countPets(new LiteralPetCreator());
 	}
 	
 	
