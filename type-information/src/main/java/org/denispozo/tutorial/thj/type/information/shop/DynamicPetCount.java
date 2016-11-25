@@ -26,10 +26,7 @@ public class DynamicPetCount {
 	
 	
 	static class PetCounter extends LinkedHashMap<Class<? extends Pet>, Integer> {
-		
-		/**
-		 * 
-		 */
+
 		private static final long serialVersionUID = 1L;
 
 		public PetCounter() {
