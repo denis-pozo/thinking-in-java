@@ -1,8 +1,9 @@
-package org.denispozo.tutorial.thj.type.information.shop;
+package org.denispozo.tutorial.thj.type.information.factory.shop15;
 
 import java.util.List;
 
-import org.denispozo.tutorial.thj.type.information.shop.pet.Pet;
+import org.denispozo.tutorial.thj.type.information.factory.shop15.pet.Pet;
+
 
 /*
  * Chapter - Type Information
@@ -16,7 +17,7 @@ public class Pets {
 	public static final PetCreator creator = new LiteralPetCreator();
 	
 	public static Pet randomPet() {
-		return creator.randomPet();
+		return PetFactory.createRandom();
 	}
 	
 	public static Pet [] createArray(int size) {
