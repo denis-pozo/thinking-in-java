@@ -8,6 +8,12 @@ import java.util.Map;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Pet;
 import org.denispozo.tutorial.thj.util.MapData;
 
+/*
+ * Chapter - Type Information
+ * Section - Checking before a cast
+ * Example
+ */
+
 // This class is actually the client of the pet creator
 public class DynamicPetCount {
 	

@@ -5,6 +5,12 @@ import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Pet;
 import org.denispozo.tutorial.thj.util.TypeCounter;
 
+/*
+ * Chapter - Type Information
+ * Section - Checking before a cast
+ * Example
+ */
+
 public class PetCountWithTypeCounter {
 	
 	public static void main(String[] args) {

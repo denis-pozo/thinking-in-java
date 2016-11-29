@@ -7,8 +7,10 @@ import org.denispozo.tutorial.thj.type.information.shop.pet.Pet;
 
 /**
  * Class extending PetCreator and implementing the abstract class types()
- * 
- * @author denispozo
+ *  
+ * Chapter - Type Information
+ * Section - Checking before a cast
+ * Example and Exercise 11
  */
 public class ForNameCreator extends PetCreator{
 
@@ -30,7 +32,8 @@ public class ForNameCreator extends PetCreator{
 		"org.denispozo.tutorial.thj.type.information.shop.pet.Cymric",
 		"org.denispozo.tutorial.thj.type.information.shop.pet.Rat",
 		"org.denispozo.tutorial.thj.type.information.shop.pet.Mouse",
-		"org.denispozo.tutorial.thj.type.information.shop.pet.Hamster"
+		"org.denispozo.tutorial.thj.type.information.shop.pet.Hamster",
+		"org.denispozo.tutorial.thj.type.information.shop.pet.Gerbil"
 	};
 	
 	// Classes loader statically loaded - For fulfilling types only once

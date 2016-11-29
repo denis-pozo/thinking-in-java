@@ -7,6 +7,12 @@ import java.util.Random;
 
 import org.denispozo.tutorial.thj.type.information.shop.pet.Pet;
 
+/*
+ * Chapter - Type Information
+ * Section - Checking before a cast
+ * Example
+ */
+
 public abstract class PetCreator {
 	
 	private Random rand = new Random(47);

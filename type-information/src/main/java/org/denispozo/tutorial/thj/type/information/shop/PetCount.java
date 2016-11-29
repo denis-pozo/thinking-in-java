@@ -1,6 +1,7 @@
 package org.denispozo.tutorial.thj.type.information.shop;
 
-import static org.denispozo.tutorial.thj.util.PrintUtil.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
+import static org.denispozo.tutorial.thj.util.PrintUtil.printnr;
 
 import java.util.HashMap;
 
@@ -8,6 +9,7 @@ import org.denispozo.tutorial.thj.type.information.shop.pet.Cat;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Cymric;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Dog;
 import org.denispozo.tutorial.thj.type.information.shop.pet.EgyptianMau;
+import org.denispozo.tutorial.thj.type.information.shop.pet.Gerbil;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Hamster;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Manx;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Mouse;
@@ -16,6 +18,12 @@ import org.denispozo.tutorial.thj.type.information.shop.pet.Pet;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Pug;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Rat;
 import org.denispozo.tutorial.thj.type.information.shop.pet.Rodent;
+
+/*
+ * Chapter - Type Information
+ * Section - Checking before a cast
+ * Example and Exercise 11
+ */
 
 // This class is actually the client of the pet creator
 public class PetCount {
@@ -38,6 +46,7 @@ public class PetCount {
 			if(pet instanceof Rat) counter.count("Rat");
 			if(pet instanceof Mouse) counter.count("Mouse");
 			if(pet instanceof Hamster) counter.count("Hamster");
+			if(pet instanceof Gerbil) counter.count("Gerbil");
 		}
 		
 		print();
