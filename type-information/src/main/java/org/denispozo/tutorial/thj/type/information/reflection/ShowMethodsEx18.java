@@ -9,10 +9,10 @@ import java.util.regex.Pattern;
 /*
  * Chapter - Type Information
  * Section - Reflection: runtime class information
- * Example
+ * Exercise 18
  */
 
-public class ShowMethods {
+class ShowMethodsEx18 {
 	private static String usage = 
 			"Usage:\n" +
 			"ShowMethods qualified .class.name\n" +
@@ -20,7 +20,7 @@ public class ShowMethods {
 			"ShowMethods qualified.class.name word \n" +
 			"To search for methods involving 'word'";
 	
-	private static Pattern p = Pattern.compile("\\w+\\.");
+	private static Pattern p = Pattern.compile("\\w+\\.|\\s*final|\\s*native");
 	
 	public static void main(String [] args) {
 		
