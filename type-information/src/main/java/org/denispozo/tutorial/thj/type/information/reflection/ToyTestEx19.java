@@ -25,8 +25,12 @@ public class ToyTestEx19 {
 		try{
 			Toy.class.getDeclaredConstructor(int.class).newInstance(1);
 
-		} catch (IllegalAccessException | IllegalArgumentException | SecurityException e) {
-				e.printStackTrace();
+		} catch (IllegalAccessException iae) {
+			print("Unable to make a toy: " + iae);
+		} catch(IllegalArgumentException iae) {
+			print("Unable to make a toy: " + iae);
+		} catch( SecurityException se) {
+			print("Unable to make a toy: " + se);
 		} catch(NoSuchMethodException nsme) {
 			print("No such method: " + nsme);
 		} catch(InstantiationException ie) {
