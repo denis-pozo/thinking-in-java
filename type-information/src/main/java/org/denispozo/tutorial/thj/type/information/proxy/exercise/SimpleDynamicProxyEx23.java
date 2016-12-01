@@ -11,7 +11,7 @@ import java.util.Date;
  * Exercise 23
  */
 
-public class SimpleDynamicProxyEx22 {
+public class SimpleDynamicProxyEx23 {
 
 	public static void consumer(Interface iface) {
 		iface.doSomething();
@@ -29,17 +29,31 @@ public class SimpleDynamicProxyEx22 {
 	}
 }
 
-class DynamicProxyHandler implements InvocationHandler {
+class DynamicProxyHandlerEx23 implements InvocationHandler {
 	
 	private Object proxied;
 	
-	public DynamicProxyHandler(Object proxied){
+	public DynamicProxyHandlerEx23(Object proxied){
 		this.proxied = proxied;
 	}
 
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		long timeIn = new Date().getTime();
+		/* 
+		* trying to print proxy leads to:
+		* StackOverFlowError 
+		* at AbstractStringBuilder.<init>(Unknown Source)
+		* at StringBuilder.<init>(Unknown Source)
+		* at DynamicProxyHandler.invoke(SimpleDynamicProxy23.java)
+		* at $Proxy0.toString(Unknown Source)
+		* at String.valueOf(Unknown Source)
+		* at StrinbBuilcer.append(Unknown Source)
+		* at DynamicProxyHandler.invoke(SimpleDynamicProxy23.java), etc,
+		* probably due to infinite recursion because calls to toString()
+		* are passed repeatedly back to this invoke method
+		*/
+		//System.out.println("**** proxy: " + proxy );
 		System.out.println("**** proxy: " + proxy.getClass() + ", method: " +
 							method + ", args: " + args
 							+ " invoked at " + timeIn + " on " + (new Date()));
