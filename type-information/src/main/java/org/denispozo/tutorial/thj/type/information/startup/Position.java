@@ -1,5 +1,11 @@
 package org.denispozo.tutorial.thj.type.information.startup;
 
+/*
+ * Chapter - Type Information
+ * Section - Null Objects
+ * Example
+ */
+
 public class Position {
 	
 	private String title;
@@ -32,6 +38,10 @@ public class Position {
 	@Override
 	public String toString() {
 		return "Position: " + title + " " + person;
+	}
+
+	public String getTitle() {
+		return title;
 	}
 }
 

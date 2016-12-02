@@ -2,6 +2,12 @@ package org.denispozo.tutorial.thj.type.information.startup;
 
 import org.denispozo.tutorial.thj.util.Null;
 
+/*
+ * Chapter - Type Information
+ * Section - Null Objects
+ * Example
+ */
+
 class Person {
 
 	public static final Person NULL = new NullPerson();
