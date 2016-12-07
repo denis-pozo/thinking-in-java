@@ -14,7 +14,7 @@ public interface Robot {
 	
 	String name();
 	String model();
-	List<Operation> opterations();
+	List<Operation> operations();
 	
 	class Test {
 		public static void test(Robot r){
@@ -23,7 +23,7 @@ public interface Robot {
 			}
 			System.out.println("Robot name: " + r.name());
 			System.out.println("Robot model: " + r.model());
-			for(Operation operation : r.opterations()){
+			for(Operation operation : r.operations()){
 				System.out.println(operation.description());
 				operation.command();
 			}

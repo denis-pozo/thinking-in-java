@@ -28,7 +28,7 @@ public class SnowRemovalRobot implements Robot {
 	}
 
 	@Override
-	public List<Operation> opterations() {
+	public List<Operation> operations() {
 		return Arrays.asList(
 				new Operation() {
 					@Override
