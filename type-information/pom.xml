@@ -24,6 +24,12 @@
       <artifactId>utils</artifactId>
       <version>${project.version}</version>
     </dependency>
+    
+    <dependency>
+      <groupId>org.denispozo.tutorial.thj.polymorphism</groupId>
+      <artifactId>polymorphism</artifactId>
+      <version>${project.version}</version>
+    </dependency>
 
     <dependency>
       <groupId>junit</groupId>
