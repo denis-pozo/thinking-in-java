@@ -2,8 +2,6 @@ package org.denispozo.tutorial.thj.type.information.ifaces.client;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
-import java.lang.reflect.Method;
-
 import org.denispozo.tutorial.thj.type.information.ifaces.A;
 
 /*
