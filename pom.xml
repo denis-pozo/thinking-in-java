@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0     http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  
+
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.denispozo.tutorial</groupId>
@@ -9,7 +9,7 @@
   <packaging>pom</packaging>
 
   <name>Thinking In Java</name>
-  
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -36,10 +36,10 @@
         <timezone>+1</timezone>
     </developer>
   </developers>
-  
+
   <modules>
   	<module>utils</module>
-    
+
     <module>everything-object</module>
     <module>operators</module>
     <module>controlling-execution</module>
@@ -53,6 +53,7 @@
     <module>holding-objects</module>
     <module>error-handling</module>
     <module>strings</module>
+    <module>generics</module>
   </modules>
 
 </project>
