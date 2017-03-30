@@ -2,9 +2,6 @@ package org.denispozo.tutorial.thj.exception.converter;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
-
 /*
  * Chapter - Error Handling with Exceptions
  * Section - Converting checked to unchecked exceptions
