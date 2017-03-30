@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.denispozo.tutorial.thj.innerclasses.inandout.Selector;
-import org.denispozo.tutorial.thj.innerclasses.inandout.StringHolder;
 
 /*
  * Chapter - Generics
@@ -17,7 +16,6 @@ import org.denispozo.tutorial.thj.innerclasses.inandout.StringHolder;
 public class SequenceEx4<E> {
 
 	private List<E> list = new ArrayList<E>();
-	private int next = 0;
 	
 	public SequenceEx4 (List<E> list) {
 		this.list = list;
