@@ -1,6 +1,7 @@
 package org.denispozo.tutorial.thj.generics.holders;
 
-import org.denispozo.tutorial.thj.type.information.shop.pet.*;
+import org.denispozo.tutorial.thj.type.information.shop.pet.Cat;
+import org.denispozo.tutorial.thj.type.information.shop.pet.Pet;
 /*
  * Chapter - Generics
  * Section - Simple Generics
