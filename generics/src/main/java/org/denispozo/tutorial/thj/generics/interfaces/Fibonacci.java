@@ -1,8 +1,5 @@
 package org.denispozo.tutorial.thj.generics.interfaces;
 
-import java.util.Iterator;
-import java.util.Random;
-
 /*
   * Chapter - Generics
   * Section - Generic Interfaces
