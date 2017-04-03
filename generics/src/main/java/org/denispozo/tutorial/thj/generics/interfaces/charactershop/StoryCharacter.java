@@ -5,7 +5,7 @@ package org.denispozo.tutorial.thj.generics.interfaces.charactershop;
  * Section - Generic interfaces
  * Exercise 8
  */
-public class Character {
+public class StoryCharacter {
 
 	private static long counter = 0;
 	private final long id = counter++;

@@ -5,4 +5,4 @@ package org.denispozo.tutorial.thj.generics.interfaces.charactershop;
  * Section - Generic interfaces
  * Exercise 8
  */
-public class BadGuy extends Character { }
+public class BadGuy extends StoryCharacter { }

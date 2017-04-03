@@ -10,7 +10,7 @@ import org.denispozo.tutorial.thj.generics.interfaces.Generator;
   * Section - Generic Interfaces
   * Exercise 8
   */
-public class CharacterGenerator implements Generator<Character>, Iterable<Character> {
+public class CharacterGenerator implements Generator<StoryCharacter>, Iterable<StoryCharacter> {
 	
 	private Class<?> [] types = {DonaldRessler.class, ElizabethKeen.class, RaymondReddington.class,
 									Solomon.class, TheDirector.class};
@@ -24,20 +24,20 @@ public class CharacterGenerator implements Generator<Character>, Iterable<Charac
 	}
 	
 	@Override
-	public Character next() {
+	public StoryCharacter next() {
 		try {
-			return (Character) types[rand.nextInt(types.length)].newInstance();
+			return (StoryCharacter) types[rand.nextInt(types.length)].newInstance();
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
 	}
 	
 	@Override
-	public Iterator<Character> iterator() {
+	public Iterator<StoryCharacter> iterator() {
 		return new CharacterIterator();
 	}
 	
-	class CharacterIterator implements Iterator<Character> {
+	class CharacterIterator implements Iterator<StoryCharacter> {
 		int count = size;
 
 		@Override
@@ -46,7 +46,7 @@ public class CharacterGenerator implements Generator<Character>, Iterable<Charac
 		}
 		
 		@Override
-		public Character next() {
+		public StoryCharacter next() {
 			count--;
 			return CharacterGenerator.this.next();
 		}
@@ -60,7 +60,7 @@ public class CharacterGenerator implements Generator<Character>, Iterable<Charac
 			System.out.println(gen.next());
 		}
 		
-		for(Character c : new CharacterGenerator(5)){
+		for(StoryCharacter c : new CharacterGenerator(5)){
 			System.out.println(c);
 		}
 	}
