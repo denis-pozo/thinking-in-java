@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.generics.interfaces;
+package org.denispozo.tutorial.thj.generics.interfaces.coffeeshop;
 
 /*
  * Chapter - Generics
