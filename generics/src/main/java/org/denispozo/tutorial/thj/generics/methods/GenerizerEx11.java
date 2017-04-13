@@ -6,7 +6,7 @@ package org.denispozo.tutorial.thj.generics.methods;
  * Exercise 10
  */
 
-public class GenerizerEx10<T> {
+public class GenerizerEx11<T> {
 	
 	private T field;
 	

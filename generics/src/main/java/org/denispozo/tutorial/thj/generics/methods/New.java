@@ -39,14 +39,14 @@ public class New {
 		return new LinkedList<T>();		
 	}
 	
-	public static <T> GenerizerEx10<T> generizer() {
-		return new GenerizerEx10<T>();
+	public static <T> GenerizerEx11<T> generizer() {
+		return new GenerizerEx11<T>();
 	}
 	
 	public static void main(String[] args) {
 		Map<String, List<String>> ls = New.map();
 		print(ls.getClass());
-		GenerizerEx10<String> gen = New.generizer();
+		GenerizerEx11<String> gen = New.generizer();
 		gen.setField("Car");
 		print(gen.getField());
 	}
