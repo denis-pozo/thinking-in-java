@@ -1,0 +1,21 @@
+package org.denispozo.tutorial.thj.generics.methods;
+
+/*
+ * Chapter - Generics
+ * Section - A general-purpose Generator
+ * Example
+ */
+
+public class CountedObject {
+	
+	private static long counter = 0;
+	private final long id = counter ++;
+	
+	public long id() {
+		return id;
+	}
+	
+	public String toString() {
+		return "CountedObject " + id; 
+	}
+}

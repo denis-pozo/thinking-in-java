@@ -1,4 +1,4 @@
-package org.denispozo.tutorial.thj.generics;
+package org.denispozo.tutorial.thj.generics.methods;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -10,7 +10,7 @@ import org.denispozo.tutorial.thj.generics.interfaces.coffeeshop.CoffeeGenerator
 
 /*
  * Chapter - Generics
- * Section - A generic methdo to use with Generators
+ * Section - A generic method to use with Generators
  * Example
  */
 
