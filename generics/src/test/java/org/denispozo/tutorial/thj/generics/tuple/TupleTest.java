@@ -31,6 +31,7 @@ public class TupleTest {
 	public static void main(String[] args) {
 		TwoTuple<String, Integer> ttsi = f();
 		System.out.println(ttsi);
+//		ttsi.first = "there";
 		System.out.println(g());
 		System.out.println(h());
 		System.out.println(k());

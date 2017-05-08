@@ -5,12 +5,16 @@ import static org.denispozo.tutorial.thj.generics.tuple.Tuple.*;
 /*
  * Chapter - Generics
  * Section - Simplifying tuple use
- * Example
+ * Example and Exercise 15
  */
 
 public class TupleTest2 {
 	
 	static TwoTuple<String, Integer> f(){
+		return tuple("hi", 47);
+	}
+	
+	static TwoTuple f2(){
 		return tuple("hi", 47);
 	}
 	
@@ -26,14 +30,15 @@ public class TupleTest2 {
 		return tuple(new Vehicle(), new Amphibian(), "hi", 47, 11.1);
 	}
 	
-	static SixTupleEx3<Vehicle, Amphibian, String, Integer, Double, Boolean> l(){
+	static SixTupleEx16<Vehicle, Amphibian, String, Integer, Double, Boolean> l(){
 		return tuple(new Vehicle(), new Amphibian(), "hi", 47, 11.1, true);
 	}
 	
 	public static void main(String[] args) {
 		TwoTuple<String, Integer> ttsi = f();
 		System.out.println(ttsi);
-//		ttsi.first = "there";
+		ttsi = f2();
+		System.out.println(ttsi);
 		System.out.println(g());
 		System.out.println(h());
 		System.out.println(k());

@@ -3,7 +3,7 @@ package org.denispozo.tutorial.thj.generics.tuple;
 /*
  * Chapter - Generics
  * Section - Simplifying tuple use
- * Example
+ * Example and Exercise 16
  */
 public class Tuple {
     
@@ -23,7 +23,7 @@ public class Tuple {
 		return new FiveTuple<A,B,C,D,E>(a, b, c, d, e);
 	}
 	
-	public static <A,B,C,D,E,F> SixTupleEx3<A,B,C,D,E,F> tuple(A a, B b, C c, D d, E e, F f){
-		return new SixTupleEx3<A,B,C,D,E,F>(a, b, c, d, e, f);
+	public static <A,B,C,D,E,F> SixTupleEx16<A,B,C,D,E,F> tuple(A a, B b, C c, D d, E e, F f){
+		return new SixTupleEx16<A,B,C,D,E,F>(a, b, c, d, e, f);
 	}
 }
