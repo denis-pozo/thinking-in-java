@@ -14,6 +14,7 @@ public class TupleTest2 {
 		return tuple("hi", 47);
 	}
 	
+	@SuppressWarnings("rawtypes")
 	static TwoTuple f2(){
 		return tuple("hi", 47);
 	}
@@ -34,6 +35,7 @@ public class TupleTest2 {
 		return tuple(new Vehicle(), new Amphibian(), "hi", 47, 11.1, true);
 	}
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		TwoTuple<String, Integer> ttsi = f();
 		System.out.println(ttsi);
