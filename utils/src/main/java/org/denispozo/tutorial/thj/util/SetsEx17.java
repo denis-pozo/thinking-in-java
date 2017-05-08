@@ -1,17 +1,15 @@
 package org.denispozo.tutorial.thj.util;
 
-import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.Set;
 
 /*
  * Chapter - Generics
  * Section - A Set Utility
- * Example
+ * Exercise 17 - Incomplete TODO
  */
 
-public class Sets {
-	
+public class SetsEx17 {	
 	public static <T> Set<T> union(Set<T> a, Set<T> b){
 		Set<T> result = new HashSet<T>(a);
     		result.addAll(b);
@@ -37,7 +35,4 @@ public class Sets {
 	public static <T> Set<T> complement(Set<T> a, Set<T> b){
 		return difference (union(a, b), intersection(a, b));
 	}
-}
-
-
-
+} 
