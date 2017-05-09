@@ -1,13 +1,19 @@
 package org.denispozo.tutorial.thj.generics.set;
 
+import static org.denispozo.tutorial.thj.generics.Watercolors.BRILLIANT_RED;
+import static org.denispozo.tutorial.thj.generics.Watercolors.BURNT_UMBER;
+import static org.denispozo.tutorial.thj.generics.Watercolors.CERULEAN_BLUE_HUE;
+import static org.denispozo.tutorial.thj.generics.Watercolors.VIDRIAN_HUE;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
+import static org.denispozo.tutorial.thj.util.Sets.complement;
+import static org.denispozo.tutorial.thj.util.Sets.difference;
+import static org.denispozo.tutorial.thj.util.Sets.intersection;
+import static org.denispozo.tutorial.thj.util.Sets.union;
+
 import java.util.EnumSet;
 import java.util.Set;
-import static org.denispozo.tutorial.thj.util.Sets.*;
 
 import org.denispozo.tutorial.thj.generics.Watercolors;
-import static org.denispozo.tutorial.thj.generics.Watercolors.*;
-
-import static org.denispozo.tutorial.thj.util.PrintUtil.*;
 
 /*
  * Chapter - Generics

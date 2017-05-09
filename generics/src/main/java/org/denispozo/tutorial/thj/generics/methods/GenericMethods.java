@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.generics.methods;
 
-import static org.denispozo.tutorial.thj.util.PrintUtil.*;
+import static org.denispozo.tutorial.thj.util.PrintUtil.print;
 
 /*
  * Chapter - Generics
