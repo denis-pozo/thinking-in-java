@@ -12,27 +12,26 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.denispozo.tutorial.thj.generic</groupId>
+  <groupId>org.denispozo.tutorial.thj</groupId>
   <artifactId>generics</artifactId>
   <name>Generics</name>
-  <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <dependencies>
     <dependency>
-      <groupId>org.denispozo.tutorial.thj.util</groupId>
+      <groupId>org.denispozo.tutorial.thj</groupId>
       <artifactId>utils</artifactId>
       <version>${project.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>org.denispozo.tutorial.thj.innerclasses</groupId>
+      <groupId>org.denispozo.tutorial.thj</groupId>
   	  <artifactId>inner-classes</artifactId>
       <version>${project.version}</version>
     </dependency>
 
     <dependency>
-      <groupId>org.denispozo.tutorial.thj.type.information</groupId>
+      <groupId>org.denispozo.tutorial.thj</groupId>
   	  <artifactId>type-information</artifactId>
       <version>${project.version}</version>
     </dependency>
