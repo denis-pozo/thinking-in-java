@@ -1,6 +1,5 @@
 package org.denispozo.tutorial.thj.util;
 
-import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.Set;
 
