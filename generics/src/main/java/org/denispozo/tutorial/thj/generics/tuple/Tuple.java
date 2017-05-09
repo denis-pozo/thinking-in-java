@@ -27,3 +27,6 @@ public class Tuple {
 		return new SixTupleEx16<A,B,C,D,E,F>(a, b, c, d, e, f);
 	}
 }
+
+class Amphibian {}
+class Vehicle {}
