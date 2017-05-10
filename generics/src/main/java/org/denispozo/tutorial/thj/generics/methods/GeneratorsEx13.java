@@ -10,9 +10,9 @@ import java.util.Queue;
 import java.util.Set;
 
 import org.denispozo.tutorial.thj.generics.interfaces.Fibonacci;
-import org.denispozo.tutorial.thj.generics.interfaces.Generator;
 import org.denispozo.tutorial.thj.generics.interfaces.coffeeshop.Coffee;
 import org.denispozo.tutorial.thj.generics.interfaces.coffeeshop.CoffeeGenerator;
+import org.denispozo.tutorial.thj.util.Generator;
 
 /*
  * Chapter - Generics

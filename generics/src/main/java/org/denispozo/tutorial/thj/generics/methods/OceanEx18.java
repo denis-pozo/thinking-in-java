@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Queue;
 import java.util.Random;
 
-import org.denispozo.tutorial.thj.generics.interfaces.Generator;
+import org.denispozo.tutorial.thj.util.Generator;
 
 /*
  * Chapter - Generics

@@ -3,7 +3,7 @@ package org.denispozo.tutorial.thj.generics.interfaces.coffeeshop;
 import java.util.Iterator;
 import java.util.Random;
 
-import org.denispozo.tutorial.thj.generics.interfaces.Generator;
+import org.denispozo.tutorial.thj.util.Generator;
 
 /*
   * Chapter - Generics

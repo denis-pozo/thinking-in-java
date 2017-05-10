@@ -1,6 +1,6 @@
 package org.denispozo.tutorial.thj.generics.methods;
 
-import org.denispozo.tutorial.thj.generics.interfaces.Generator;
+import org.denispozo.tutorial.thj.util.Generator;
 
 /*
  * Chapter - Generics

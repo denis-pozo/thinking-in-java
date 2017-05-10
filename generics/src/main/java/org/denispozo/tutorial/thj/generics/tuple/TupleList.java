@@ -1,7 +1,5 @@
 package org.denispozo.tutorial.thj.generics.tuple;
 
-import org.denispozo.tutorial.thj.generics.tuple.TupleTest;
-
 import java.util.ArrayList;
 
 /*
