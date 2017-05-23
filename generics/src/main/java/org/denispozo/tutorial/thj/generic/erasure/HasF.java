@@ -1,7 +1,5 @@
 package org.denispozo.tutorial.thj.generic.erasure;
 
-import java.util.ArrayList;
-
 /*
  * Chapter - Generics
  * Section - The C++ Approach

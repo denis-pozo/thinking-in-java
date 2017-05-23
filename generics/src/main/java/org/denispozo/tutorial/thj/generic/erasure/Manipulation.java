@@ -16,6 +16,7 @@ public class Manipulation {
 }
 
 class Manipulator<T> {
+	@SuppressWarnings("unused")
 	private T obj;
 	public Manipulator(T x) {
 		obj = x;
