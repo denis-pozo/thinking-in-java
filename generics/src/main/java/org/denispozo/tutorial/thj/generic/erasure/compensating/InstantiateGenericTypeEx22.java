@@ -8,7 +8,7 @@ import java.lang.reflect.InvocationTargetException;
 /*
  * Chapter - Generics
  * Section - Creating Instances of Types
- * Example
+ * Exercise 22
  */
 
 public class InstantiateGenericTypeEx22<T> {
