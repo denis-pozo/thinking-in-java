@@ -52,7 +52,7 @@
   </developers>
 
   <modules>
-  	<module>utilities</module>
+  	<module>utils</module>
 
     <module>everything-object</module>
     <module>operators</module>
