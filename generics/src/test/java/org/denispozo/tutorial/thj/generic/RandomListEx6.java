@@ -2,7 +2,7 @@ package org.denispozo.tutorial.thj.generic;
 
 import static org.denispozo.tutorial.thj.util.PrintUtil.printnr;
 
-import org.denispozo.tutorial.thj.generic.RandomList;
+import org.denispozo.tutorial.thj.generics.RandomList;
 
 /*
  * Chapter - Generics
