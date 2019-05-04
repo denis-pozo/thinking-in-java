@@ -68,6 +68,7 @@
     <module>error-handling</module>
     <module>strings</module>
     <module>generics</module>
+    <module>concurrency</module>
   </modules>
 
 </project>
