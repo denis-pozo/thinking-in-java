@@ -1,0 +1,13 @@
+package org.denispozo.tutorial.thj.concurrency;
+
+//Chapter - Concurrency: Example 003
+
+public class MoreBasicThreads {
+    public static void main(String [] args) {
+        for(int i = 0 ; i < 5 ; i++) {
+            new Thread(new LiftOff()).start();
+        }
+        System.out.println("Waiting for liftoff");
+    }
+
+}
